@@ -75,7 +75,7 @@ const TrendingSection = () => {
         <h2 className=' text-white font-bold text-2xl ' >More reasons to Join</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  text-white p-4 gap-3 ' >
             {ReasonObj.map((item , index) => (
-                <div className="flex-1 bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 relative overflow-hidden">
+                <div key={index} className="flex-1 bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-8 relative overflow-hidden">
                     <div className="relative z-10">
                         <h2 className="text-2xl lg:text-2xl font-bold text-white mb-6 leading-tight">
                             {item.heading}

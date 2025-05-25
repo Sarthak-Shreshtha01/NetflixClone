@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import HeroSection from './components/HeroSection'
 import TrendingSection from './components/TrendingSection'
 import FAQ from './components/FAQ'
